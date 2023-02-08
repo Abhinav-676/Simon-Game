@@ -46,6 +46,19 @@ $(document).on("keypress", function(){
     }
 })
 
+$("h1").on("click", function(){
+    if(!started)
+    {
+        started = true;
+
+        $("h1").text(`${level}`)
+
+        setTimeout(function(){
+            nextSequence();
+        }, 700)
+    }
+})
+
 $(".btn").on("click", function(e){
     let userChosenColour = $(e.target).attr("id")
 
