@@ -46,7 +46,7 @@ $(document).on("keypress", function(){
     }
 })
 
-$("h1").on("click", function(){
+$(".start-button").on("click", function(){
     if(!started)
     {
         started = true;

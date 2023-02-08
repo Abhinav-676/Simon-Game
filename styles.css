@@ -11,13 +11,52 @@ body {
   color: #FEF2BF;
 }
 
+.container {
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .btn {
   margin: 25px;
-  display: inline-block;
   height: 200px;
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+}
+
+.start-button {
+  display: none;
+  color: darkblue;
+  background-color: #FEF2BF;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 15px;
+  
+}
+
+.button-div {
+  margin-top: 50px;
+}
+
+@media(max-width: 630px)
+{
+  .btn {
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+  }
+
+  #level-title {
+    margin:  5%;
+  }
+
+  .start-button {
+    display: initial;
+  }
+  
 }
 
 .game-over {
@@ -45,3 +84,5 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+
