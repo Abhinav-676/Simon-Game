@@ -1,5 +1,5 @@
 
-let level = 1;
+let level = 0;
 let index = 0;
 let started = false;
 
