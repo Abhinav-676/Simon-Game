@@ -86,7 +86,7 @@ $(".btn").on("click", function(e){
     } else {
         let highScore = level
 
-        level = 1;
+        level = 0;
         started = false
         gamePattern = []
 
