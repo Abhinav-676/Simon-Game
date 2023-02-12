@@ -67,7 +67,7 @@ $(".btn").on("click", function(e){
     if(userChosenColour == gamePattern[index])
     {
         playSound(userChosenColour)
-        if(index == level - 1)
+        if(index == level)
         {
             userClickedPattern = []
             level++;
