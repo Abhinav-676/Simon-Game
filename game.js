@@ -91,6 +91,6 @@ $(".btn").on("click", function(e){
         gamePattern = []
 
         playSound("wrong")
-        $("h1").html(`<p>Game Over, Press any key to restart</p><p>Score: ${highScore}</p>`)
+        $("h1").html(`<p>Game Over</p><p>Score: ${highScore}</p>`)
     }
 })
